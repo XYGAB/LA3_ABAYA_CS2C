@@ -17,5 +17,6 @@ const result = (typeof Average === 'number' && Average !== null) ? {
     
 } : { grade: "Invalid", remarks: "Please enter a valid number." };
 // log results to the console
+console.log("Result:".toLocaleUpperCase());
 console.log("Your equivalent Grade is ".concat(result.grade));
 console.log("Final Remarks: ".concat(result.remarks));
